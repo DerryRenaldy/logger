@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b4d60db-b023-4448-b3be-99c70bcd4b4f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_impl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/logger_impl_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KU8HvlU5cPXpKeaBRCMxRQ3xWJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +50,7 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/derryrenaldy/Desktop/zerolog_test/test_log_package"
+    "last_opened_file_path": "/home/derryrenaldy/Desktop/zerolog_test/zerolog_logger"
   }
 }]]></component>
   <component name="RecentsManager">
