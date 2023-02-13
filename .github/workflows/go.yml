@@ -10,8 +10,11 @@ on:
     branches: [ "master" ]
 
 jobs:
-
   build:
+    permissions:
+      contents: write
+      issues: write
+      pull-request: write
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -26,3 +29,8 @@ jobs:
 
     - name: Test
       run: go test -v ./...
+
+    - name: Release
+      run: npx semantic-release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
