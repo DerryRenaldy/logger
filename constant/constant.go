@@ -12,7 +12,6 @@ const (
 	FatalLevel string = "fatal"
 	ErrorLevel string = "error"
 	WarnLevel  string = "warn"
-	InfoLevel  string = "Info"
-	DebugLevel string = "Debug"
-	TraceLevel string = "Trace"
+	InfoLevel  string = "info"
+	DebugLevel string = "debug"
 )
