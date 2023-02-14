@@ -1,5 +1,6 @@
 package constant
 
+// Environment
 const (
 	EnvDev   string = "development"
 	EnvStage string = "sandbox"
